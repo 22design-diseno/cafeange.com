@@ -1,0 +1,199 @@
+@charset "utf-8";
+body {
+	font-family:メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;";
+	width: 100%;
+	font-size: 85%;
+	color: #553A2F;
+	height: auto;
+}
+#contents {
+	height: auto;
+	width: 100%;
+}
+#header {
+	width: 95%;
+	height: auto;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#header h1 {
+	font-size: x-small;
+	margin-bottom: 5px;
+	margin-right: 40px;
+}
+#mainwrap {
+	width: 900px;
+	height: auto;
+	margin-left: 5%;
+}
+#navwrap {
+	float: left;
+	width: auto;
+	height: auto;
+}
+#nav {
+	width: 180px;
+}
+#nav img{
+	vertical-align:bottom;
+}
+#nav ul li {
+	width: 180px;
+	height:0;
+	overflow:hidden;
+	display: block;
+	padding-top:55px;
+}
+#nav ul #home {
+	background-image: url(../img/img_menu01_ds.png);
+}
+#nav ul #about {
+	background-image: url(../img/img_menu02_ds.png);
+}
+#nav ul #menu {
+	background-image: url(../img/img_menu03_ds.png);
+}
+
+#nav ul #blog {
+	background-image: url(../img/img_menu04_ds.png);
+}
+#nav ul #photoalbm {
+	background-image: url(../img/img_menu05_ds.png);
+}
+#nav ul #access {
+	background-image: url(../img/img_menu06_ds.png);
+}
+
+#textarea {
+	/*/ 白の半透明*/
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#99ffffff,EndColorStr=#99ffffff);
+	background-color: rgba(255, 255, 255, 0.8);
+	height: auto;
+	width: 610px;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	float: right;
+	display: block;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+#textarea article {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 1.4em;
+}
+
+#textarea article p {
+	padding-left: 1em;
+	padding-bottom: 1.5em;
+}
+
+#textarea article h2 {
+	font-size: x-large;
+}
+#textarea article h3 {
+	font-size: small;
+}
+#textarea article dl {
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+#textarea article dl dt {
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-bottom: 0.25em;
+}
+#textarea article dl table {
+	margin-left: 1.5em;
+	margin-top: 1.5em;
+}
+#textarea article dl table td.time {
+	text-align: left;
+	color: #553A2F;
+	font-weight: bold;
+	width: 6.5em;
+	display: block;
+}
+
+
+
+#textarea article dl dd {
+	line-height: 1.5em;
+	width: 500px;
+	display: block;
+	margin-left: 1.5em;
+}
+
+
+#page-top {
+	    position: fixed;
+	    bottom: 20px;
+	    right: 10%;
+	    font-size: 80%;
+}
+	#page-top a {
+	    background: #B94047;
+	    text-decoration: none;
+	    color: #fff;
+	    width: 100px;
+	    padding: 30px 0;
+	    text-align: center;
+	    display: block;
+	    -webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		behavior: url(../js/PIE.htc);
+}
+	#page-top a:hover {
+	    text-decoration: none;
+	    background: #CA6469;
+}
+
+#reserve{
+    padding: 10px 5px 0;
+    display: block;
+    margin: 0 5% 30px 0;
+    width: 100%;
+    top: 8%;
+    left: 80%;
+    position: fixed;
+}
+
+
+#footer {
+	clear: both;
+	height: 15px;
+	padding-top: 8px;
+	width: 100%;
+	background-image: url(../img/bg_footer.png);
+	background-repeat: repeat-x;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+}
+address {
+	font-size: x-small;
+	font-style: normal;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #FFF;
+	padding-bottom: 2px;
+}
+
+/* For modern browsers */
+.cf:before, .cf:after {
+	content:"";
+	display:block;
+	overflow:hidden;
+}
+.cf:after {
+	clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+	zoom:1;
+}
