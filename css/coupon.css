@@ -1,0 +1,329 @@
+@charset "utf-8";
+body {
+	font-family:メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;";
+	font-size: 62.5%; 
+	color: #553A2F;
+	height: auto;
+}
+#contents {
+	width: 1024px;
+	margin: 0 auto;
+}
+#contents .pclogo{
+	margin: 0 auto;
+	width: 134px;
+	padding: 10px 0;
+	display: block;
+}
+#menu-box{
+	margin: 0 5%;
+    width: 100%;
+}
+#menu{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+#menu li{
+  display: block;
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 0; 
+  font-size: 1.4em;
+  line-height: 0.8em;
+  }
+#menu li span{
+	  font-size: 0.6em;
+}
+#menu li a{
+  display: block;
+  padding: 12px 0 10px;
+  background: #bc474e;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+#menu li a:hover{
+  background: #e07178;
+}
+#toggle{ 
+ display: none;
+}
+.hi-wrap{
+	margin: 15px auto;
+	text-align: center;
+}
+.hi-wrap h1{
+	color: #bc474e;
+	font-size: 1.6em;
+	line-height: 1.8em;
+	margin: 10px 0;
+}
+.hi-wrap p{
+	line-height: 1.6em;
+	padding: 8px;
+	}
+
+.line-howto{
+	text-align: center;
+	}
+.line-howto h2{
+	font-size: 1.6em;
+	margin: 0px 0 10px;
+}
+
+h3{
+text-align: left;
+margin: 20px 25% 10px !important;
+font-size: 1.4em;	
+}
+/*
+.howto01:before{
+	content: url(http://cafeange.com/line/img/icon01.png);
+	top: 1.6em;
+	position: relative;
+	padding-right: 10px;
+}
+.howto02:before{
+	content: url(http://cafeange.com/line/img/icon02.png);
+	top: 1.6em;
+	position: relative;
+	padding-right: 10px;
+}
+.howto-qr {
+	margin: 0px 20% !important;
+	display: table;
+}
+.howto-qr li{
+	display: inline;
+}
+.howto-qr li.text{
+	width: 460px;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	padding: 30px 0 0 20px;
+	}
+*/
+p.text{
+	width: 460px;
+	padding: 50px 0 0 20px;
+	margin: 0px 20% !important;
+	text-align: left;
+}
+p.center{
+	text-align: center;
+	margin: 10px 0;
+}
+p.list,p.telpc{
+	text-align: left;
+	margin: 0px 25% 40px;
+	line-height: 1.4em;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 0.7em;
+	background: #bc474e;
+	margin: 30px 0 0;
+	padding: 10px;
+}
+
+.icon{ width: 10px;
+height: auto;;
+margin-right: 5px;
+}
+
+.mv img{width: 650px;
+    height: auto;
+}
+
+.mb30{margin-bottom: 30px;}
+
+.lead{
+	font-size:150%;
+	margin-top: 20px;
+}
+
+.talign_c{
+	text-align: center;
+}
+
+.btn{text-align: center;
+width: 100%;}
+
+.btn a{
+width: 210px;
+max-width: 210px;
+}
+
+
+@media only screen and (min-width: 641px) {
+.sp{
+	display: none;
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+	body{
+		width:100% !important;
+	}
+
+	.pc{
+		display: none;
+	}
+	br.pc{
+		display: none;
+	}
+	p.pc{
+		text-align: left;
+	}
+	p.list{
+		font-size: 1.3em;
+		margin: 0px 10% 40px;
+		}
+	p.list  li{
+		text-indent: 1em;
+		padding-left: -1em;
+	}
+	.lead{
+		text-align: center;
+		line-height: 1.47;
+	}
+	
+		
+#contents{
+	width: 100%;
+}
+#contents img{
+		width: 100%;
+	}
+	
+	.btn a img{
+	width: 210px !important;
+}
+#contents .pclogo{
+	margin: 0 auto;
+	padding: 10px 0;
+	display: block;
+	width: 62px;
+}
+#menu-box{
+	margin: 0;
+    width: 100%;
+}
+  #menu{
+    display: none;
+  }
+  #menu li{
+    width: 100%;
+  }
+  #toggle{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #bc474e;
+  }
+  #toggle a{
+    display: block;
+    position: relative;
+    padding: 22px 0px;
+    border-bottom: 1px solid #e07178;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  #toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: #fff;
+  }
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #bc474e;;
+  }
+  #toggle a:before{
+    margin-top: -6px;
+  }
+  #toggle a:after{
+    margin-top: 2px;
+  }
+  
+.hi-wrap h1{
+	font-size: 1.2em;
+}
+.hi-wrap p{
+	text-align: left;
+}
+h2{font-size: 1.2em;
+	text-align: center;
+}
+h3{
+	margin: 10px 10% !important;
+}
+h3 .howto1{
+	width: 100%;
+	margin: 0;
+}
+.line-howto{
+	text-align: left;
+}
+p.text{
+    margin: 0 !important;
+    padding: 0 30px 10px;
+    width: 85%;
+    line-height: 1.6em;
+}
+
+}
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #B94047;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    behavior: url(../../js/PIE.htc);
+}
+/* For modern browsers */
+.cf:before, .cf:after {
+	content:"";
+	display:block;
+	overflow:hidden;
+}
+.cf:after {
+	clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+	zoom:1;
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Cafe Ange（カフェアンジェ）がLINE＠始めました！お友だちになってカフェタイムやバータイムの「期間限定クーポン」やお得な情報を配信します。">
+<meta name="keywords" content="LINE,クーポン,CafeAnge,カフェタイム,バータイム">
+<meta property="fb:app_id" content="583230628363921" />
+<title>Cafe Ange || LINE＠はじめました</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/line.css" rel="stylesheet" type="text/css">
+<link href="img/favicon.ico" rel="shortcut icon" >
+<!--[if lt IE 9]>
+	<script src="js/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+<body>
+	<div id="contents">
+		<div class="pc">
+		<a href="../index.html" class="pclogo"><img src="../img/logo_r.png" ></a>
+		</div>
+
+	<div id="menu-box">
+	  <div id="toggle"><a href="#"><img src="../img/logo_w.png" class="pclogo"></a></div>
+	  <ul id="menu" class="pc">
+	    <li><a href="../index.html">Home&nbsp;<br class="pc"><span>ホーム</span></a></li>
+	    <li><a href="../about/index.html">About&nbsp;<br class="pc"><span>当店について</span></a></li>
+	    <li><a href="../menu/index.html">Menu&nbsp;<br class="pc"><span>メニュー</span></a></li>
+	    <li><a href="http://angel.ap.teacup.com/cafe_ange/">Blog&nbsp;<br class="pc"><span>ブログ</span></a></li>
+	    <li><a href="../photoalbm/index.html">Album&nbsp;<br class="pc"><span>過去のメニュー</span></a></li>
+	    <li><a href="../access/index.html">Access&nbsp;<br class="pc"><span>アクセス</span></a></li>
+	  </ul>
+	</div>
+	<div class="hi-wrap">
+	<img src="img/line01.png">
+	<h1 class="pc">Cafe AngeのLINEアカウントと<br class="pc">お友だちになってお得なクーポンをゲット！</h1>
+	<h1 class="sp">Cafe&nbsp;AngeのLINEアカウントと<br>お友だちになって<br>お得なクーポンをゲット！</h1>
+	<img src="img/line01.png">
+	<p class="pc">CafeAngeからお得なクーポンのご利用ができるサービスをご紹介致します。<br class="pc">まだ友達追加されてない方は是非こお友達登録してみてくださいね♪</p>
+	<p class="sp">CafeAngeからお得なクーポンのご利用ができるサービスをご紹介致します。まだ友達追加されてない方は是非こお友達登録してみてくださいね♪</p>
+	</div>
+	<div class="line-howto">
+		<h2>お友だち登録方法</h2>
+		<img src="img/line02.png">
+		<div class="pc">
+			<h3 class="howto01">QRコードから登録する</h3>
+			<ul class="howto-qr">
+				<li class="text">LINEを起動してメニューの「友だち追加」で「QRコード」を選択して、右のQRコードを読み取ると、友だち追加ができます。</li>
+			<li><img src="img/qr_line.jpg" width="100"></li>
+			</ul>
+			<h3 class="howto02">ID検索から登録する</h3>
+			<p class="text">LINEを起動してメニューの「友だち追加」で「ID検索」を選択して、＠cafeangeと入力して検索すると、友だち追加ができます。</p>
+		</div>
+				
+		<div class="sp">
+			<h3><img class="howto01" src="img/icon01sp.png" alt="登録方法1 ID検索から登録する"></h3>
+			<p class="text">LINEを起動してメニューの「友だち追加」で「ID検索」を選択して、＠cafeangeと入力して検索すると、友だち追加ができます。</p>
+			
+			<h3><img class="howto02" src="img/icon02sp.png" alt="登録方法2 ボタンからお友だち登録する"></h3>
+			<p class="text">「友だち追加」ボタンをクリックするとお友だち追加ができます。</p>
+			<a href="http://line.me/ti/p/%40cafeange"><img class="line-btn" border="0" alt="友だち追加" src="http://biz.line.naver.jp/line_business/img/btn/addfriends_ja.png"></a>		
+		</div>
+	</div>
+	<div id="page-top" style="display: block;"><a href="#contents">トップへ戻る▲</a></div>
+	<footer>(C) 2013-2016 Cafe Ange All rights reserved.</footer>
+	
+	<script>
+	$(function(){
+  $("#toggle").click(function(){
+    $("#menu").slideToggle();
+    return false;
+  });
+  $(window).resize(function(){
+    var win = $(window).width();
+    var p = 480;
+    if(win > p){
+      $("#menu").show();
+    } else {
+      $("#menu").hide();
+    }
+  });
+});
+$(function() {
+    var topBtn = $('#page-top');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 250) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+</body>	
+</html>

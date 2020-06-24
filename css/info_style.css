@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.infoLIst{
+	
+}
+
+.infoList > .item{
+	padding-left: 1em;
+	text-indent: -1em;
+	line-height: 1.47;
+	margin-bottom: 5px;
+}
